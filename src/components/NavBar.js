@@ -14,6 +14,16 @@ export default function NavBar(){
                     </NavLink>
                 </li>
                 <li>
+                    <NavLink className={({isActive})=> (isActive ? styles.active : "")} to="/login">
+                        Entrar
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink className={({isActive})=> (isActive ? styles.active : "")} to="/register">
+                        Cadastrar
+                    </NavLink>
+                </li>
+                <li>
                 <NavLink className={({isActive})=> (isActive ? styles.active : "")} to="/sobre">
                         About
                 </NavLink>
