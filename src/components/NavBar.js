@@ -49,7 +49,7 @@ export default function NavBar(){
                      </>
                 )}
                 <li>
-                <NavLink className={({isActive})=> (isActive ? styles.active : "")} to="/sobre">
+                <NavLink className={({isActive})=> (isActive ? styles.active : "")} to="/about">
                         Sobre
                 </NavLink>
                 </li>
